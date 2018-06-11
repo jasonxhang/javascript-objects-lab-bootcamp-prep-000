@@ -3,3 +3,7 @@ var recipes = {
   cake: "batter",
   iceCream: "cream"
 };
+
+function updateObjectWithKeyAndValue (object, key, value) {
+  
+}
