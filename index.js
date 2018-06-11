@@ -9,5 +9,6 @@ function updateObjectWithKeyAndValue (recipes, key, value) {
 }
 
 function destructivelyUpdateObjectWithKeyAndValue (recipes, key, value) {
-  return Object.assign({}, recipes, {[key]: value}) //why does key need to be in square brackets
+  recipes[key] = value
+  return recipes;
 }
